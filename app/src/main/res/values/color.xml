@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="state1">#f4f4f4</color>
+    <color name="state2">#fad920</color>
+    <color name="colorPrimary">#3e6372</color>
+    <color name="colorPrimaryDark">#3e6372</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

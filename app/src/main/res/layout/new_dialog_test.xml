@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_mydialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textColor="#f4f4f4"
+        android:textStyle="bold"
+        android:background="#3e6372"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="25dip"
+        android:textColor="#f4f4f4"
+        android:textStyle="bold"
+        android:background="#3e6372"
+        />
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#3e6372"
+        >
+        
+        <Button 
+            android:id="@+id/btn_dialogconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="200dp"
+            android:text="确认"
+            android:textColor="#3e6372"
+            android:textSize="20dip"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shqpe3"
+            />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:id="@+id/container"
+    android:orientation="vertical">
+
+    <include  layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        >
+
+        <LinearLayout
+            android:id="@+id/mult_ll0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/muti_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="多选界面"
+                android:layout_margin="5dp"
+                android:textColor="#3e6372"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/muti_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <include
+        layout="@layout/countbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+</LinearLayout>

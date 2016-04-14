@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_mydialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="退出该模式？"
+        android:textSize="35dip"
+        android:textColor="#f4f4f4"
+        android:textStyle="bold"
+        android:background="#3e6372"
+        />
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        
+        <Button 
+            android:id="@+id/btn_dialogconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="确认"
+            android:textColor="#f4f4f4"
+            android:textSize="25dip"
+            android:background="#3e6372"
+            />
+        
+        <Button 
+            android:id="@+id/btn_dialogcancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="#f4f4f4"
+            android:textSize="25dip"        
+            android:background="#ff6901"
+            />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

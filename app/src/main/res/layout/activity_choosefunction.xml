@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4">
+
+    <include  layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#f4f4f4"
+        >
+
+        <Button
+            android:id="@+id/btn_recite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dip"
+            android:text="章节背诵"
+            android:textSize="25dip"
+            android:textColor="#3e6372"
+            android:drawableTop="@mipmap/f1"
+            android:paddingTop="50dip"
+            android:background="@drawable/buttonstyle"
+            />
+
+        <Button
+            android:id="@+id/btn_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dip"
+            android:text="章节练习"
+            android:textSize="25dip"
+            android:textColor="#3e6372"
+            android:drawableTop="@mipmap/f4"
+            android:paddingTop="50dip"
+            android:background="@drawable/buttonstyle"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dip"
+            android:text="模拟考场"
+            android:textSize="25dip"
+            android:textColor="#3e6372"
+            android:drawableTop="@mipmap/f3"
+            android:paddingTop="50dip"
+            android:background="@drawable/buttonstyle"
+            />
+
+        <Button
+            android:id="@+id/btn_wronganswers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dip"
+            android:text="易错题集"
+            android:textSize="25dip"
+            android:textColor="#3e6372"
+            android:drawableTop="@mipmap/f2"
+            android:paddingTop="50dip"
+            android:background="@drawable/buttonstyle"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

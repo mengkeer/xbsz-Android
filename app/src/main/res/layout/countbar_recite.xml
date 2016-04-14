@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_countbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#3e6372" 
+    >
+    
+    <Button 
+        android:id="@+id/btn_last"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="上一题"
+        android:textStyle="bold"
+        android:background="#ff6900"
+        android:textColor="#f4f4f4"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="进度："
+        android:textStyle="bold"
+        android:textColor="#f4f4f4"
+        android:layout_marginLeft="30dip"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_leftnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="#f4f4f4"
+        android:layout_marginLeft="10dip"
+        />
+    
+   	<Button 
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ff6900"
+        android:text="下一题"
+        android:textStyle="bold"
+        android:textColor="#f4f4f4"
+        />
+    
+</LinearLayout>

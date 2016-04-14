@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f4f4f4"
+    android:gravity="center">
+
+    <include  layout="@layout/toolbar" />
+
+    <LinearLayout 
+        android:id="@+id/ll_singleormult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <Button 
+            android:id="@+id/btn_singlechoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="单选"
+            android:textColor="#f4f4f4"
+            android:background="#ff6900"
+            />
+        
+        <Button 
+            android:id="@+id/btn_multchoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="多选"
+            android:textColor="#f4f4f4"
+            android:background="#3e6372"
+            />
+        
+    </LinearLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_choosetype"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >       
+    </android.support.v4.view.ViewPager>
+    
+
+</LinearLayout>
